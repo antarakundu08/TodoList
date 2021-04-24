@@ -19,26 +19,30 @@ header.h1{
     left: 0;
     right: 50px;
     z-index: 5;
-    color: rgb(212, 212, 212);
-    background: #1d2020;
+    color: rgb(255, 255, 255);
+    background: #000000;
     box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.7);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 50px 90px;
 }
-head.img1{
-    max-width: 70%;
+header.img1 img{
+    
+    max-width: 100%;
+    height: auto;
+
 }
 header.h2 input{
     width: 50%;
     height: 50px;
     /* padding: 10px 10px; */
     font-size: 20px;
-    color:teal;
+    color:rgb(78, 233, 253);
+    background: #000000;
     text-align: center;
     border-radius: 5%;
 }
  header.h2 input::-webkit-input-placeholder {
-    color: rgba(92, 88, 88, 0.75);
+    color: rgba(161, 161, 161, 0.75);
 }
 
 header.h2 input::-moz-input-placeholder {
@@ -67,7 +71,7 @@ header.h2 button{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 header.h2 button:hover{
-    background-color: teal;
+    background-color: rgb(78, 233, 253);
     color: black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -77,7 +81,7 @@ header.h2 button:hover{
     float: center;
 }
 ul.todo{
-    max-width: 75%;
+    max-width: 80%;
     font-size: 20px;
     padding: 10 20 10 20;
     background: rgb(0, 0, 0);
@@ -107,7 +111,7 @@ ul.todo ul{
   user-select: none; */
 }
 ul.todo ul:hover{
-    background-color: teal;
+    background-color:rgb(78, 233, 253);
     color: black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -124,7 +128,7 @@ ul.todo button.remove{
     background-image: url("/resources/imgs/remove-icon.png");
     background-size: 100%;
     box-shadow: none;
-    position: fixed;
+    position: relative;
     margin-bottom:104.5px;
     outline: none;
     cursor: pointer;
@@ -144,7 +148,7 @@ ul.todo button.remove{
      right: 28%; 
     float: left;
     outline: none;
-    position:fixed;
+    position:absolute;
     cursor: pointer;
     padding-right: 0%;
     
