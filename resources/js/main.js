@@ -35,11 +35,11 @@ window.onload=function(){
         const DONE = done ? CHECK : UNCHECK;
         const LINE = done ? LINE_THROUGH : "";
         
-        const item = `<li class="item">
+        const item = `<ul class="item">
                         <i class="fa ${DONE} co" job="complete" id="${id}"></i>
                         <p class="text ${LINE}">${toDo}</p>
                         <i class="fa fa-trash-o de" job="delete" id="${id}"></i>
-                      </li>
+                      </ul>
                     `;
         
         const position = "beforeend";
@@ -49,7 +49,7 @@ window.onload=function(){
     function addItemTodo(text){
        
         
-        var item=document.createElement("li");
+        var item=document.createElement("ul");
         item.appendChild(document.createElement("center"))
         item.innerText=text;
          var remove = document.createElement("button");
