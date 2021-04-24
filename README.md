@@ -1,2 +1,3 @@
 # TodoList  
-A simple ToDo List without any javascript framework.  
+A simple ToDo List.  
+ Without any javascript framework.  
